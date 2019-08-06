@@ -57,7 +57,7 @@ namespace BonusLab_16
 
         public override string ToString()
         {
-            return $"{this.Make}\t{this.Model}\t{this.Year}\t{this.Price}";
+            return (this.Make + "\t" + this.Model + "\t" + this.Year + "\t" + String.Format("{0:C}",this.Price));
         }
 
     }
